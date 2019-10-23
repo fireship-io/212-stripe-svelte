@@ -6,7 +6,7 @@ Get started with Stripe Payments API, Svelte, and Node.js Cloud Functions.
 - Stripe Payment Intents API
 - Works with 3D Secure payments in the EU
 
-Watch the [Stripe Basics Video]() and take the [Stripe Payments Master Course](https://fireship.io/courses/stripe-payments/)
+Watch the [Stripe Basics Video](https://youtu.be/1XKRxeo9414) and take the [Stripe Payments Master Course](https://fireship.io/courses/stripe-payments/)
 
 Notes:
 
