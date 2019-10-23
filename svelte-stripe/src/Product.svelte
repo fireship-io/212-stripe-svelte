@@ -4,8 +4,7 @@
 
   export let amount;
   export let name;
-  export let img;
-  export let sku = 'sku_G26jbtMauKZ17p';
+  export let sku = 'sku_G2rCWkAssjoqW8';
 
   // Basic Checkout
 
@@ -50,7 +49,7 @@
       headers: {
         'Content-Type': 'application/json'
       },
-      body: JSON.stringify({ amount, name, img })
+      body: JSON.stringify({ amount })
     };
     return ( await fetch(url, params) ).json();
 
