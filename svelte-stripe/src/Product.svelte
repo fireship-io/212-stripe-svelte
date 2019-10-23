@@ -1,5 +1,5 @@
 <script>
-  let stripe = Stripe('pk_test_m3a5moXVKgThpdfwzKILvnbG');
+  let stripe = Stripe('pk_test_...');
   let api = 'http://localhost:5000/awesomeapp-dev/us-central1/payments';
 
   export let amount;
@@ -41,7 +41,7 @@
     createCardForm();
   });
 
-  // Step 1
+  // Step 2
   async function createIntent() {
     const url = api + '/intents';
     const params = {
@@ -56,7 +56,7 @@
     console.log(paymentIntent);
   }
 
-  // Step 2
+  // Step 3
   async function createCardForm() {
     cardElement = elements.create('card');
     cardElement.mount(card);
@@ -64,7 +64,7 @@
     cardElement.on('change', (e) => complete = e.complete);
   }
 
-  // Step 3
+  // Step 4
   async function submitPayment() {
     const result = await stripe.handleCardPayment(
       clientSecret, cardElement, {
@@ -85,6 +85,37 @@
   }
   
 </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 <style>
 section {

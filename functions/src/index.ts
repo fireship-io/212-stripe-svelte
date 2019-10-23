@@ -1,7 +1,7 @@
 import * as functions from 'firebase-functions';
 
 import * as Stripe from 'stripe';
-const stripe = new Stripe('sk_test_OPJq1i4HPWL0bjddnWR8Oj76');
+const stripe = new Stripe('sk_test_...');
 
 import * as express from 'express';
 import * as cors from 'cors';
