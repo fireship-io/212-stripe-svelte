@@ -17,8 +17,8 @@
     "@types/fs-extra": "^8.0.1",
     "cors": "^2.8.5",
     "express": "^4.17.1",
-    "firebase-admin": "^8.0.0",
-    "firebase-functions": "^3.1.0",
+    "firebase-admin": "^11.4.1",
+    "firebase-functions": "^3.24.1",
     "fs-extra": "^8.1.0",
     "stripe": "^7.10.0"
   },
